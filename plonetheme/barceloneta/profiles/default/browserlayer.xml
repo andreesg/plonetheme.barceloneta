@@ -4,4 +4,7 @@
   <layer name="plonetheme.barceloneta"
          interface="plonetheme.barceloneta.interfaces.IBarcelonetaLayer"/>
 
+  <layer name="plonetheme.barceloneta.forms"
+         interface="plonetheme.barceloneta.interfaces.IBarcelonetaFormLayer"/>
+
 </layers>
