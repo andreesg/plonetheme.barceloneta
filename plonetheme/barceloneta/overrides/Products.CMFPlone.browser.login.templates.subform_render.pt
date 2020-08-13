@@ -18,10 +18,10 @@
         <div tal:define="hidden python:widget.mode == 'hidden'"
              tal:omit-tag="hidden">
 
-            <div class="field"
+            <div class="form-group field"
                 tal:define="error widget/error;
                             hidden python:widget.mode == 'hidden';"
-                tal:attributes="class python:'field' + (error and ' error' or '')">
+                tal:attributes="class python:'form-group field' + (error and ' error' or '')">
                 <label for=""
                         tal:attributes="for widget/id"
                         tal:condition="not:hidden">

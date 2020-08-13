@@ -33,7 +33,7 @@
 
         </form>
 
-        <div class="footer"
+        <div class="footer mt-4"
              tal:define="portal_state context/@@plone_portal_state;
                          portal_url portal_state/portal_url">
           <p class="trouble">
